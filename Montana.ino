@@ -176,9 +176,9 @@ void verloren() {
  arduboy.display();                                   // zet video geheugen op het display
  wacht = millis();                                    // laad wachttijd met huidige tijd
  while (millis() < wacht + wachttijd4) {}             // wacht tot opgegeven tijd om is
- arduboy.fillRect (12,18,104,27, BLACK);              // maak onderste deel van scherm zwart
- arduboy.setCursor(19, 22);                           // verplaats tekst cursor
-  arduboy.println("To may attempts");                 // zet tekst op het scherm
+ arduboy.fillRect (10,18,108,27, BLACK);              // maak onderste deel van scherm zwart
+ arduboy.setCursor(13, 22);                           // verplaats tekst cursor
+  arduboy.println("Too many attempts");                 // zet tekst op het scherm
   arduboy.setCursor(38, 34);                          // verplaats tekst cursor
  arduboy.println("New game?");                        // zet tekst op het scherm
  arduboy.display();                                   // zet video geheugen op het display
